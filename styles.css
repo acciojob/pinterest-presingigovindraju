@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+.iam{
+	display:flex;
+	
+}
+#nam{
+	background:red;
+	border-style:none;
+}
+img{
+	width:300px;
+}
+.yaman{
+margin-left:50px;
+	
+}
+.k{
+	margin-left:-10px;
+}
+button{
+	margin-left:40px;
+}
