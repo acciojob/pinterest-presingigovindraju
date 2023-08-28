@@ -1,22 +1,58 @@
-/*  your css code here. If applicable */
-.iam{
-	display:flex;
-	
+/* Reset default margin and padding */
+body, h1, h2, h3, p, div, img, a {
+  margin: 0;
+  padding: 0;
 }
-#nam{
-	background:red;
-	border-style:none;
+
+/* Styling for the hero container */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #f8f8f8;
 }
-img{
-	width:300px;
+
+/* Styling for the hero image */
+.hero-image {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.yaman{
-margin-left:50px;
-	
+
+/* Styling for the hero content */
+.hero-content {
+  margin-left: 30px;
+  text-align: left;
 }
-.k{
-	margin-left:-10px;
+
+/* Styling for the heading */
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
 }
-button{
-	margin-left:40px;
+
+/* Styling for the paragraph */
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Styling for the explore button */
+.explore-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e03c31;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #c02b20;
 }
